@@ -1,0 +1,13 @@
+let x,
+  y,
+  z;
+
+document.getElementById("rollBtn").onclick = function () {
+  x = Math.floor(Math.random() * 6) + 1;
+  y = Math.floor(Math.random() * 6) + 1;
+  z = Math.floor(Math.random() * 6) + 1;
+
+  document.getElementById("xLbl").innerHTML = x;
+  document.getElementById("yLbl").innerHTML = y;
+  document.getElementById("zLbl").innerHTML = z;
+}
